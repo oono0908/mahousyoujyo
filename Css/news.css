@@ -1,0 +1,43 @@
+
+
+.newsdata{
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  justify-content: space-between;
+}
+.newsdata_margin_top{
+  margin-top: 50px;
+}
+.newsdata__item{
+  width: 30%;
+}
+.newsdata__bg-img{
+  border: solid 2px white;
+  width: auto;
+  height: auto;
+}
+.newsdata__txt{
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  text-overflow: ellipsis;
+  color: white;
+  font-weight: bold;
+}
+.newsdata__txt_margin_top{
+  margin-top: 15px;
+}
+.hurt_red{
+  color: red;
+}
+.newsdata__date_margin_top{
+  margin-top: 15px;
+}
+.news-date{
+  color: white;
+  font-weight: bold;
+}
+.newsdata__item_mamrgin-top{
+  margin-top: 30px;
+}

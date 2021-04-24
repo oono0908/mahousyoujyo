@@ -1,0 +1,40 @@
+.storydata{
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  justify-content: space-between;
+}
+.storydata_margin{
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+.storydata__item{
+  width: 30%;
+  text-align: center;
+}
+.storydata-img{
+  border: solid 2px white;
+  width: auto;
+  height: auto;
+}
+.storydata__txt{
+  width: 100%;
+  color: white;
+  font-weight: bold;
+}
+.storydata__link{
+  text-decoration: none;
+}
+.storydata__txt_margin_top{
+  margin-top: 20px;
+}
+.storydata__item_margin_top{
+  margin-top: 50px;
+}
+.js-animation{
+  animation: flash .03s infinite;
+}
+.js-change-color{
+  opacity: 0.5;
+  transition: 0.5s;
+}

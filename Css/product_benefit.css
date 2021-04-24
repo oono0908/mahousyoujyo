@@ -1,0 +1,58 @@
+*{
+  color: white;
+}
+.main_margin_bottom{
+  margin-bottom: 50px;
+}
+.title{
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+.title_margin_top{
+  margin-top: 10px;
+}
+.corporation_margin_top{
+  margin-top:40px;
+}
+.corporation-link{
+  font-size: 18px;
+  font-weight: bold;
+}
+.txt{
+  border-bottom: 1px solid white;
+}
+.benefit-txt_margin_top{
+  margin-top: 10px;
+}
+.book-img{
+  display: flex;
+}
+.book-img_margin_top{
+  margin-top: 5px;
+}
+.nav__btn-txt{
+  color: black;
+}
+.amazon-img{
+  display: block;
+}
+.benefit-info{
+  line-height: 1.5;
+}
+.benefit-info_margin_top{
+  margin-top: 30px;
+}
+.font_size{
+  font-size: 13px;
+}
+.benefit-detail{
+  line-height: 1.5;
+}
+.title-sub_margin_top{
+  margin-top: 10px;
+}
+.benefit-sample-img{
+  width: 150px;
+  height: 213px;
+}

@@ -1,0 +1,166 @@
+.main__wrapper{
+  width: 100vw;
+  overflow: hidden;
+}
+.main__top-img1{
+  width: 295px;
+  height: 43px;
+}
+.character-bg{
+  height: 65vw;
+  width: 100vw;
+  overflow: hidden;
+  position: relative;
+}
+.character-bg_margin_top{
+  margin-top: 70px;
+}
+.character-bg__frame{
+  height: 75%;
+  width: 110vw;
+  position: absolute;
+  left: 50%;
+  transform: rotate(-3deg) translateX(-50%);
+  overflow: hidden;
+}
+.character-list{
+  position: absolute;
+  width: 110vw;
+  height: auto;
+  top: 0;
+  left: 0;
+  background-color: tomato;
+}
+.character-list__item1{
+  position: relative;
+}
+.chracter-item-style{
+  width: 150%;
+  transform: translate(-27%, -24%);
+}
+.chracter-comment-style{
+  width: 65%;
+  height: auto;
+  transform: rotate(4deg);
+  position: absolute;
+  top: 38%;
+  left: 10.5%; 
+}
+.character-list__nav-btn{
+  width: 5%;
+  height: 37%;
+  position: absolute;
+  cursor: pointer;
+}
+.character-btn1:hover{
+  top: 12px;
+}
+.character-btn2:hover{
+  top: 23px;
+}
+.character-btn1{
+  transform: rotate(3deg);
+  top: 20px;
+  left: 6%;
+  z-index: 7;
+}
+.character-btn2{
+  transform: rotate(183deg);
+  top: 20px;
+  right: 6%;
+}
+.character-nav__list{
+  margin-top: 100px;
+  display: flex;
+  width: 110vw;
+  transform: rotate(-3deg) translateY(-50%);
+  overflow: hidden;
+  background-color: black;
+}
+.character-nav__item{
+  background-color: black;
+  transform: rotate(3deg);
+}
+
+.character-nav__item img{
+  width: 100%;
+  opacity: 0.3;
+}
+.character-nav__item img:hover{
+  width: 100%;
+  opacity: 1;
+  background-color: rgb(104, 7, 7);
+}
+.slick-current .character-nav__item-img{
+  background-color: rgb(104, 7, 7);
+  opacity: 1;
+}
+.slick-slide{
+  outline: none;
+}
+.character-info{
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 999;
+  width: 75%;
+}
+.character-info__name-img{
+  width: 750px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+.character-info__actor{
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+.character-info__actor_margin_top{
+  margin-top: 30px;
+}
+.hurt_margin{
+  margin: 0 5px;
+}
+.hurt_red{
+  color: red;
+}
+.chracter-info-devide{
+  display: flex;
+}
+
+.character-txt_margin_top_12{
+  margin-top: 200px;
+}
+.chracter-info-devide__right{
+  width: 90%;
+}
+.character-right__img{
+  width: 40%;
+}
+.character-txt_margin_top{
+  margin-top: 10px;
+}
+.character-txt_margin_right{
+  margin-right: 5px;
+}
+.character-txt{
+  font-size: 16px;
+  font-weight: normal;
+  background-color: black;
+  color: white;
+  display: inline-block;
+  padding: 5px 10px;
+}
+.character-txt3{
+  line-height: 1.8;
+  text-align: justify;
+}
+.character__left-img{
+  width: 90%;
+}
+ .btn-up{
+   top: -8px;
+ }

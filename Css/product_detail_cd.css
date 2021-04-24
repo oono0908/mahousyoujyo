@@ -1,0 +1,108 @@
+.cddata{
+  display: flex;
+}
+.cddata_margin_top{
+  margin-top: 80px;
+}
+.cddata_border_bottom_color{
+  border-bottom: 1px solid white;
+}
+.cddata__right{
+  text-align: center;
+}
+.cddata__right-img{
+  width: 258px;
+  height: 300px;
+}
+.cddata__right-txt{
+  color: white;
+}
+.cddata__right-txt:hover{
+  animation: flash .03s infinite;
+}
+.cddata__right-txt_margin_top{
+  margin-top: 15px;
+  position: relative;
+}
+.cddata__right-txt:before{
+  content: '';
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 16px solid white;
+  position: absolute;
+  top: -1px;
+  left: 22%;
+}
+.cddata__right-txt:after{
+  content: '';
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-right: 16px solid white;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid transparent;
+  position: absolute;
+  top: -1px;
+  right: 22%;
+}
+.cddata__left{
+  color: white;
+}
+.cddata__left_margin_left{
+  margin-left: 50px;
+}
+.cddata__left-type{
+  font-size: 18px;
+}
+.cddata__left-title{
+  font-weight: bold;
+  font-size: 18px;
+}
+.cddata__left-title_margin_top{
+  margin-top: 10px;
+}
+.cddata__left-date_margin_top{
+  margin-top: 20px;
+}
+.cddata__left-number_margin_top, .cddata__left-price_margin_top{
+  margin-top: 10px;
+}
+.cddata__left-txt{
+  letter-spacing: 1.5px;
+  line-height: 1.5;
+}
+.cddata__left-txt_margin_top{
+  margin-top: 50px;
+}
+.cddata__left-txt_margin_bottom{
+  margin-bottom: 50px;
+}
+.pagination__item-product-list{
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+.pagination_margin{
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.pagination__item-product-list:hover{
+  animation: flash .03s infinite;
+}
+.pagination__item-product-list:before{
+  content: '';
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-right: 16px solid #ee4f16;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid transparent;
+  position: absolute;
+  left: 43%;
+}
